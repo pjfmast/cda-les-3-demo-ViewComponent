@@ -1,7 +1,7 @@
 ﻿using DemoLes3ViewComponent.Models;
 using Microsoft.AspNetCore.Mvc;
 
-// todo 1. Create a DemoViewComponent.cs in Components/
+// todo 1. Create a DemoViewComponent.cs in folder Components/
 namespace DemoLes3ViewComponent.Components
 {
     public class DemoViewComponent : ViewComponent
