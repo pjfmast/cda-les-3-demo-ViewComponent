@@ -6,9 +6,9 @@ namespace DemoLes3ViewComponent.Components
 {
     public class DemoViewComponent : ViewComponent
     {
-        public IViewComponentResult Invoke() {
+        public IViewComponentResult Invoke(string name) {
             return View(new ViewModelCurrentDateTime() {
-                Message = $"{DateTime.Now:G}"
+                Message = $"Hi {name} the time is {DateTime.Now:G}"
             });
         }
     }

@@ -16,12 +16,12 @@
             @addTagHelper *, DemoLes3ViewComponent 
          *@
         <span>As taghelper</span>
-        <vc:demo></vc:demo>
+        <vc:demo name="Henk"></vc:demo>
     </div>
 
     <div>
         @*Invoke alternative 2:*@
         <span>As Component.InvokeAsync</span>
-        @await Component.InvokeAsync("Demo")
+        @await Component.InvokeAsync("Demo", "Henk")
     </div>
 </div>
